@@ -21,9 +21,13 @@ body, html {
 }
 
 .btn.btn-outline-white {
-  background-color: whitesmoke !important;
+  background-color: white !important;
   color: rgba(46, 69, 97, 1) !important;
   font-weight: bold;
+}
+
+.btn.btn-outline-white:hover, .social-buttons button:hover {
+  filter: brightness(80%);
 }
 
 .btn .fa {
@@ -47,7 +51,7 @@ footer.page-footer .footer-copyright {
 
 @media screen and (max-width: 1024px) {
   .bg {
-    background-image: url("../img/small_hero.jpg");
+    background-image: url("../img/small_hero1.jpg");
   }
   .navbar-brand img {
     height: 90px;
