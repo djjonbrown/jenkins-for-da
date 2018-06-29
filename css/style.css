@@ -1,0 +1,97 @@
+
+body, html {
+    height: 100%;
+}
+.bg {
+    /* The image used */
+    background-image: url("../img/800.jpg");
+
+    /* Full height */
+    height: 70%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*filter: grayscale(90%);*/
+}
+
+.btn.btn-outline-white, .social-buttons button {
+  min-width: 15rem;
+}
+
+.btn.btn-outline-white {
+  background-color: whitesmoke !important;
+  color: rgba(46, 69, 97, 1) !important;
+  font-weight: bold;
+}
+
+.btn .fa {
+  font-size: 1rem;
+}
+
+.cyan {
+  background-color: #1C2331 !important;
+}
+
+footer.page-footer .footer-copyright {
+  background-color: rgba(0,0,0,.2);
+}
+
+
+@media screen and (max-width: 1366px) and (orientation: landscape ){
+  .bg {
+    height: 63%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .bg {
+    background-image: url("../img/small_hero.jpg");
+  }
+  .navbar-brand img {
+    height: 90px;
+  }
+}
+
+@media screen and (max-width: 1024px) and (orientation: portrait ){
+  .bg {
+    height: 75%;
+  }
+}
+
+@media screen and (max-width: 1024px) and (orientation: landscape ){
+  .bg {
+    height: 62%;
+  }
+}
+
+@media screen and (max-width: 812px) and (orientation: landscape ){
+  .bg {
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) and (orientation: portrait ){
+  .bg {
+    height: 67%;
+  }
+}
+
+@media screen and (max-width: 414px) and (orientation: portrait ){
+  .bg {
+    height: 38%;
+  }
+}
+
+@media screen and (max-width: 411px) and (orientation: portrait ){
+  .bg {
+    height: 44%;
+  }
+}
+
+@media screen and (max-width: 375px) and (orientation: portrait ){
+  .bg {
+    height: 32%;
+  }
+}
